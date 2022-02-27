@@ -1,0 +1,14 @@
+Scope is the set of rules that determines where and how a variable
+(identifier) can be looked up. This look-up may be for the purposes of
+assigning to the variable, which is an LHS (lefthand-side) reference,
+or it may be for the purposes of retrieving its value, which is an RHS
+(righthand-side) reference
+
+LHS references result from assignment operations. Scope-related as‐
+signments can occur either with the = operator or by passing argu‐
+ments to (assign to) function parameters.
+
+we defined “scope” as the set of rules that govern how
+the engine can look up a variable by its identifier name and find it,
+either in the current scope, or in any of the nested scopes it’s contained
+within
