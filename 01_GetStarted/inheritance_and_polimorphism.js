@@ -47,7 +47,7 @@ const thorhal = new Book({
     title: 'Thorgal: Władca gór', 
     author: 'Rosiński - Van Hamme', 
     pubDate: '01.10.1980',
-    publisher: 'Unknown',
+    publisher: 'Cinebook',
     ISBN: '158-848480'
 });
 
